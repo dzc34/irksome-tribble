@@ -1,8 +1,15 @@
 
-# Cache and logs 
-/var/cache/*
-/var/logs/*
+# Netbeans
+nbproject
+nb-configuration.xml
+nbactions.xml
 
-# Build data
-/build/
+# Intellij
+.idea
+*.iml
 
+# saved files
+*~
+
+# Git - Merge temp file
+*.orig
